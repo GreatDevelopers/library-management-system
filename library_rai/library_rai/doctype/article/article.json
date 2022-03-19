@@ -1,9 +1,11 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "Book-.###",
  "creation": "2022-03-19 16:13:36.586291",
  "doctype": "DocType",
+ "document_type": "Document",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
@@ -68,9 +70,8 @@
   }
  ],
  "image_field": "image",
- "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-19 18:40:01.581944",
+ "modified": "2022-03-19 21:41:45.603700",
  "modified_by": "Administrator",
  "module": "Library Rai",
  "name": "Article",
@@ -88,10 +89,32 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarian",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library User",
+   "share": 1
   }
  ],
- "quick_entry": 1,
+ "route": "library",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "author"
 }
