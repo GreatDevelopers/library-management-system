@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include library_rai *.css
+recursive-include library_rai *.csv
+recursive-include library_rai *.html
+recursive-include library_rai *.ico
+recursive-include library_rai *.js
+recursive-include library_rai *.json
+recursive-include library_rai *.md
+recursive-include library_rai *.png
+recursive-include library_rai *.py
+recursive-include library_rai *.svg
+recursive-include library_rai *.txt
+recursive-exclude library_rai *.pyc
